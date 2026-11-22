@@ -1,0 +1,1 @@
+{"name":"bmc-multiplayer","version":"2.0.0","private":true,"engines":{"node":">=18"},"scripts":{"start":"node m2server.js"}}
