@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Basketball Manager Career</title>
+<!DOCTYPE html><html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Basketball Manager Career</title><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#ff6a13"><link rel="apple-touch-icon" href="/icon-192.png">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#121316;--p:#1c1e23;--p2:#262930;--o:#ff6a13;--t:#f4f2ee;--m:#9a9ca4;--g:#3ddc84;--r:#ff5252;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -935,4 +935,6 @@ function room(){const r=M2.room;if(!r)return'<div class="w"><p>A carregar…</p>
 const _v=vMP;vMP=function(){if(MP.v=="m2"){A.innerHTML=M2.v=="create"?create():M2.v=="room"?room():menu();return}_v();const c=A.querySelector(".col:last-child");c&&c.insertAdjacentHTML("afterbegin",`<button class="pri" onclick="MP.v='m2';M2.v='menu';conn2(()=>0);render()">🏆 Torneios privados 2.0</button>`)};
 })();
 
+
+if("serviceWorker"in navigator&&/^https?:$/.test(location.protocol))navigator.serviceWorker.register("/sw.js").catch(()=>{});
 </script></body></html>
